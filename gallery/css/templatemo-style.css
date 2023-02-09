@@ -144,7 +144,7 @@ button:focus { outline: none; }
 }
 
 /* Background & menu colors */
-.cd-hero-slider li:nth-of-type(1) { background-color: rgba(56, 182, 230, 0.62); }
+.cd-hero-slider li:nth-of-type(1) { background-color: rgba(255, 255, 255, 0.62); }
 .cd-hero-slider li:nth-of-type(2) { background-color: rgba(237, 84, 76, 0.62); }
 .cd-hero-slider li:nth-of-type(3) { background-color: rgba(234, 163, 25, 0.62); }
 .cd-hero-slider li:nth-of-type(4) { background-color: rgba(22, 181, 163, 0.62); }
@@ -316,7 +316,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 	}
 }
 
-#loader-wrapper .loader-section { position: fixed; top: 0; width: 51%; height: 100%; background: #222222; z-index: 2000;  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */ transform: translateX(0);  /* Firefox 16+, IE 10+, Opera */}
+#loader-wrapper .loader-section { position: fixed; top: 0; width: 51%; height: 100%; background: #ffffff; z-index: 2000;  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */ transform: translateX(0);  /* Firefox 16+, IE 10+, Opera */}
 
 #loader-wrapper .loader-section.section-left { left: 0; }
 
@@ -703,6 +703,7 @@ figure.effect-sadie:hover p {
 	.cd-full-width .container-fluid {
 		padding-left: 0;
 		padding-right: 0;
+		max-width: 1333px;
 	}
 
 	.tm-brand-icon { 
